@@ -1,0 +1,37 @@
+.controller-section {
+  background-color: #475569;
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.controller-section > div {
+  width: 90%;
+  margin: auto;
+}
+
+.controller-section h1 {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+}
+.input-container input {
+  cursor: pointer;
+  outline: none;
+}
+.input-container label {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  cursor: pointer;
+}
+* {
+  /* border: 1px solid white; */
+}
